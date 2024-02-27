@@ -7,6 +7,9 @@ Users can request encryption or decryption by placing a JSON file in a specified
 The service continuously monitors this directory, processes requests as they appear,
 and generates a response in JSON format.
 
+Dependendies: Must install GPG using 'pip install python-gnupg'. If HomeBrew is needed, do '/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"'
+
+
 How to Use
 Prepare a JSON Request: Create a JSON file with the following structure:
 
