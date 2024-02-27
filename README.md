@@ -1,7 +1,7 @@
 # README for Encryption/Decryption Microservice
 CS 361 Microservice
 
-Introduction
+## Introduction
 This microservice provides on-the-fly encryption and decryption of data using PGP keys.
 Users can request encryption or decryption by placing a JSON file in a specified directory.
 The service continuously monitors this directory, processes requests as they appear,
